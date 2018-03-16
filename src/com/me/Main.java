@@ -32,6 +32,16 @@ public class Main {
         //step 4 calling method to print them out
         printList(placesToVisit);
 
+        //step 7 add new element
+        placesToVisit.add(1, "Westlake");
+        printList(placesToVisit);
+        //step 8 then run again
+
+        //step 9 remove an element
+        placesToVisit.remove(4);
+        printList(placesToVisit);
+        //step 10 then run again
+
     }
 
     //step 5 creating method to print out
